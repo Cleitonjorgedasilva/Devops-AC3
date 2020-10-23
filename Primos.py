@@ -15,7 +15,6 @@ def primos():
             primos.append(cont)
         cont +=1
     return primos
-print (primos())
 
 if __name__ == "__main__":
     port = int(os.eviron.get("PORT, 5000"))
